@@ -1,0 +1,18 @@
+body {
+    background-color: #FFF6DA;
+}
+.header_color {
+    color: #A92A4A;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height:auto;
+}
+a, li, h1, h2 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
