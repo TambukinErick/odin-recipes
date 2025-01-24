@@ -26,7 +26,7 @@ h1 {
     max-width: 400px;
     height:auto;
 }
-a, li, h1, h2 {
+a, li, h1, h2, p {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -39,7 +39,7 @@ main {
     padding: 2vh;
 }
 
-.recipies {
+main section {
     margin: 0 auto 0 auto;
     padding: 4vh;
 }
@@ -65,4 +65,28 @@ main {
 .recipe-list-item a:hover {
     text-decoration: underline;
     color: #889E73;
+}
+
+.recipe-section-header {
+    margin-bottom: 3vh;
+}
+
+.description p {
+    padding-left: 2vw;
+}
+
+.ingredients-list {
+    padding-left: 2.5vw;
+}
+
+.ingredients-list-item {
+    margin: 2vh 0 0 0;
+}
+
+.steps-list {
+    padding-left: 2.5vw;
+}
+
+.steps-list-item {
+    margin: 2vh 0 0 0;
 }
